@@ -1,0 +1,61 @@
+.site-logo{
+    text-align: center;
+    padding-top:200px;
+    background-color:white;
+}
+
+h1, h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.btn{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:0.4px;
+    border-radius:5px !important;
+}
+
+iframe{
+    width:100%;
+}
+
+#section-about {
+    padding-top:3em;
+}
+@media (min-width: 992px) {
+    #section-about {
+        padding-top:13em;
+    }
+}
+
+.color-red{
+    color:#bf252e;
+}
+
+#section-coupons h5{
+    font-family: 'Raleway', sans-serif;
+    font-size:1.4em;
+    font-weight:300;
+}
+#section-coupons h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    color:#93c94a;
+}
+#section-footer p{
+    margin-bottom: 0.2em;
+}
+@media (min-width: 576px) { 
+    .btn-menu{
+        margin-right:1em;
+    }
+ }
+@media (max-width: 575px) { 
+    .btn-menu{
+        margin-bottom:1em;
+    }
+ }
+
+ .btn.btn-lg {
+    font-size: 20px !important;
+    padding: 16px 50px !important;
+}

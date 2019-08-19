@@ -116,6 +116,27 @@ $(document).ready(function($) {
 	};
 	contentWayPoint();
 
+	// magnific popup
+	$('.image-popup').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		closeBtnInside: false,
+		fixedContentPos: true,
+		mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+		 gallery: {
+		  enabled: true,
+		  navigateByImgClick: true,
+		  preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+		  verticalFit: true
+		},
+		zoom: {
+		  enabled: true,
+		  duration: 300 // don't foget to change the duration also in CSS
+		}
+	  });
+
 	// navigation
 	var OnePageNav = function() {
 		$(".smoothscroll[href^='#'], #site-nav ul li a[href^='#']").on('click', function(e) {
@@ -124,9 +145,8 @@ $(document).ready(function($) {
 		 	var hash = this.hash,
 		 			navToggler = $('.navbar-toggler');
 		 	$('html, body').animate({
-		    scrollTop: $(hash).offset().top
+		    scrollTop: $(hash).offset().top - 100
 		  }, 700, 'easeInOutExpo', function(){
-		    window.location.hash = hash;
 		  });
 
 

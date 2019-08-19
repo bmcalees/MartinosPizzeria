@@ -54,8 +54,23 @@ iframe{
         margin-bottom:1em;
     }
  }
+ @media (max-width: 768px) { 
+    .sauce{
+        margin-bottom: 2em;
+    }
+ }
 
  .btn.btn-lg {
     font-size: 20px !important;
     padding: 16px 50px !important;
+}
+
+.image-popup{
+    width:240px;
+    height:240px;
+    overflow:hidden;
+    margin:60px auto;
+    -webkit-box-shadow: 0px 0px 4px 1px rgb(212, 212, 212);
+    -moz-box-shadow: 0px 0px 4px 1px rgb(212, 212, 212);
+    box-shadow: 0px 0px 4px 1px rgb(212, 212, 212);
 }

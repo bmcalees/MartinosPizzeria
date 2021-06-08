@@ -49,6 +49,11 @@ iframe{
     color:#93c94a;
 }
 
+#section-coupons .plus-tax{
+    font-size: 16px;
+    color: #d2d2d2;
+}
+
 #section-footer p{
     margin-bottom: 0.2em;
 }
